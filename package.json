@@ -1,0 +1,25 @@
+{
+  "name": "slm-loader",
+  "version": "0.1.0",
+  "description": "SLM/SLIM Template Loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wealthbar/slm-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "slm",
+    "slim",
+    "loader"
+  ],
+  "author": "Chris Nicola @chrismnicola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wealthbar/slm-loader/issues"
+  },
+  "homepage": "https://github.com/wealthbar/slm-loader#readme"
+}
