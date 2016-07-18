@@ -1,6 +1,6 @@
 {
   "name": "slm-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SLM/SLIM Template Loader for Webpack",
   "main": "index.js",
   "scripts": {
