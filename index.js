@@ -14,7 +14,7 @@ module.exports = function(source) {
   if (!options.basePath && resolveRoot) options.basePath = resolveRoot;
   options.filename = this.resource;
   var tmplFunc = slm.compile(source, options);
-  
+
   // watch for changes in every referenced file
   Object.keys(slm.template.VM.prototype._cache).forEach(function(dep) {
     this.addDependency(dep);
@@ -29,6 +29,6 @@ module.exports = function(source) {
   Object.keys(slm.template.VM.prototype._cache).forEach(function(dep) {
     delete slm.template.VM.prototype._cache[dep];
   });
-  
-  return tmplFunc();
+
+  return tmplFunc(options.data || options || {});
 };
