@@ -1,3 +1,7 @@
+** Note: Looking for a new maintainer **
+
+Due to the limited support for Angular 2 syntax offered by SLIM/SLM we are migrating to PUG. This project is looking for a new maintainer. If you are using slm-loader and are interested in accepting pull requests I would be happy to transfer the project to you.
+
 # slm-loader
 SLM/SLIM Template Loader for Webpack
 
