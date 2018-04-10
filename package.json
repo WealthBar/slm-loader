@@ -1,6 +1,6 @@
 {
   "name": "slm-loader",
-  "version": "0.2.3",
+  "version": "1.0.0-beta",
   "description": "SLM/SLIM Template Loader for Webpack",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/wealthbar/slm-loader#readme",
   "dependencies": {
-    "loader-utils": "^0.2.15",
-    "slm": "^1.0.0",
+    "loader-utils": "^1.1.0",
+    "slm": "^2.0.0",
     "slm-markdown": "^1.0.0"
   }
 }
